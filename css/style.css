@@ -19,6 +19,7 @@ main{
     }
 }
 
+/* NAV BAR */
 
 .navbar{
     background-color: #333;
@@ -31,6 +32,7 @@ main{
 
 nav > ul{
     list-style-type: none;
+    display: flex;
 }
 
 #navbar-member{
@@ -39,6 +41,7 @@ nav > ul{
     text-transform: uppercase;
     font-weight: bold;
     font-family: "Bellefair", serif;
+    padding: 0 10px;
 }
 
 #navbar-member:hover{
