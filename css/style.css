@@ -7,6 +7,9 @@ body{
 
 main{
     padding: 0 2em;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 .logo, .logo > picture, .logo > picture > img, .logo > picture > source {
@@ -17,9 +20,34 @@ main{
     .logo, .logo > picture, .logo > picture > img, .logo > picture > source {
         width: 200px;
     }
+    li:first-child a#navbar-member {
+        margin-left: 0;
+    }
+    #navbar-member {
+        margin-left: 0.5em;
+    }
 }
 
-/* NAV BAR */
+
+
+/* STYLES */
+.wraparound{
+    float: right;
+    padding: 0 0 15px 15px;
+}
+
+/* IMAGE SIZES */
+.teeny-image{height: 100px;}
+.small-image{height: 200px;}
+.medium-image{height: 300px;}
+.large-image{height: 400px;}
+.huge-image{height: 500px;}
+
+
+
+
+
+/* NAVIGATION BAR */
 
 .navbar{
     background-color: #333;
@@ -39,9 +67,8 @@ nav > ul{
     color:white;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
     font-family: "Bellefair", serif;
-    padding: 0 10px;
+    margin-left: 1em;
 }
 
 #navbar-member:hover{

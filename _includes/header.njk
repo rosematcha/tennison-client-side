@@ -7,7 +7,7 @@
     </div>
     <nav>
         <ul>
-            {% for page in collections.nav %}
+            {% for page in collections.nav | sort(attribute="data.order") %}
                 <li><a id="navbar-member" href="{{ page.url }}">{{ page.data.title }}</a></li>
             {% endfor %}
         </ul>
